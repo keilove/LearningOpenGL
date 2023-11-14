@@ -15,10 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="triangle.cpp">
+    <ClCompile Include="1-triangle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\..\LearningOpenGL\Test\openGL配置文件\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2-square.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3-practice_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4-practice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5-practice.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -131,7 +131,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\LearningOpenGL\Test\openGL配置文件\glad\src\glad.c" />
-    <ClCompile Include="triangle.cpp" />
+    <ClCompile Include="2-square.cpp" />
+    <ClCompile Include="1-triangle.cpp" />
+    <ClCompile Include="3-practice_1.cpp" />
+    <ClCompile Include="4-practice.cpp" />
+    <ClCompile Include="5-practice.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
