@@ -104,10 +104,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\visual studio\OpenGL\AsomeOpenGL\5-texture\openGL配置文件\glew-2.2.0\include;E:\visual studio\OpenGL\AsomeOpenGL\5-texture\openGL配置文件\glfw-3.3.8.bin.WIN64\include;E:\visual studio\OpenGL\AsomeOpenGL\5-texture\openGL配置文件\glut-3.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\visual studio\OpenGL\AsomeOpenGL\5-texture\openGL配置文件\glew-2.2.0\lib\Release\x64;E:\visual studio\OpenGL\AsomeOpenGL\5-texture\openGL配置文件\glfw-3.3.8.bin.WIN64\lib-vc2022;E:\visual studio\OpenGL\AsomeOpenGL\5-texture\openGL配置文件\glut-3.7\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32s.lib;glfw3.lib;glut32.lib;glut.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -129,6 +132,15 @@
   <ItemGroup>
     <ClCompile Include="..\1\openGL配置文件\glad\src\glad.c" />
     <ClCompile Include="1.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader_s.h" />
+    <ClInclude Include="stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="4.1.texture.fs" />
+    <None Include="4.1.texture.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
